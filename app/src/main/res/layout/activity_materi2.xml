@@ -27,13 +27,14 @@
         android:layout_centerInParent="true"
         android:src="@drawable/icon" />
 
-    <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/icon" />
+        android:text="Back" />
 
     <ImageView
         android:layout_width="75dp"
