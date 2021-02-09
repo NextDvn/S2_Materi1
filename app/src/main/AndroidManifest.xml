@@ -17,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Materi2"></activity>
+        <activity android:name=".Materi3"></activity>
+        <activity android:name=".TargetActivity"></activity>
     </application>
 
 </manifest>
