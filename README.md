@@ -24,6 +24,8 @@ Untuk fitur tambahan saya menambahkan,
 
 • Lalu saya juga menggabungkan semua Materi I-III menjadi 1 project dengan menambahkan tombol Intent kembali ke Home pada setiap Activity
 
+![Code](https://github.com/NextDvn/S2_Materi1/blob/master/Code.PNG)
+
 #### -Materi I (HOME)
 
 LinearLayout adalah susunan tata letak yang paling simple dapat digunakan para developer android. Karena layout ini hanya memberikan susunan tata letak komponen secara garis lurus. Bisa secara horizontal maupun vertical.
