@@ -26,7 +26,7 @@ Untuk fitur tambahan saya menambahkan,
 
 ![Code](https://github.com/NextDvn/S2_Materi1/blob/master/Code.PNG)
 
-#### -Materi I [HOME]
+#### -Materi I
 
 LinearLayout adalah susunan tata letak yang paling simple dapat digunakan para developer android. Karena layout ini hanya memberikan susunan tata letak komponen secara garis lurus. Bisa secara horizontal maupun vertical.
 
@@ -57,7 +57,7 @@ Intent  adalah  mekanisme  untuk  melakukan  sebuah  action  dan  komunikasi  an
 
 ![1](https://github.com/NextDvn/S2_Materi1/blob/master/M1_1.PNG)
 
-### -Materi 1
+### -Materi 1 [HOME]
 
 ![2](https://github.com/NextDvn/S2_Materi1/blob/master/M1_2.PNG)
 
