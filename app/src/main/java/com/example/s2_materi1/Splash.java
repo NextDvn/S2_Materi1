@@ -7,7 +7,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Splash extends AppCompatActivity {
-    private final int loading = 2300;
+    private final int waktu = 2300;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +20,7 @@ public class Splash extends AppCompatActivity {
                 Intent home = new Intent(Splash.this, MainActivity.class);
                 startActivity(home);
                 finish();
-
             }
-        }, loading);
+        }, waktu);
     }
 }

@@ -87,7 +87,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="end|right"
+        android:gravity="end"
         android:orientation="horizontal">
 
         <Button
@@ -169,6 +169,25 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Materi III" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/int4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Materi IV" />
+
+        <Button
+            android:id="@+id/int5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Materi V" />
     </LinearLayout>
 </LinearLayout>
