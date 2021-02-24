@@ -14,6 +14,24 @@
 
 • OnPause: kondisi yang dipanggil saat ada Activity lain yang terbuka.
 
+### Apa itu Fragment?
+
+Fragment merupakan salah satu komponen pada Android Studio dengan fungsi yang hampir sama seperti activity tetapi memiliki “lifecycle” yang berbeda. Fragment merupakan bagian dari sebuah activity yang mana sebuah fragment tidak akan ada bila tidak ada sebuah activity karena fragment membutuhkan akses dari activity untuk dapat dijalankan.
+
+Kelebihan yang didapatkan bila menggunakan fragment adalah sebagai berikut:
+
+• Tidak perlu memasukkan nama file fragment ke dalam “AndroidManifest” yang diperlukan oleh activity.
+
+• Fungsi yang berada pada activity dapat langsung digunakan dalam fragment tersebut tanpa harus membuat ulang. Contoh: pada saat back, fragment hanya perlu memanggil fungsi getactivity
+
+### LifeCycle Fragment?
+
+Perbedaan LifeCycle Fragment VS Activity
+
+<img src="https://socs.binus.ac.id/files/2017/09/wi-2.jpg" width="25%" height="25%"> VS <img src="https://4.bp.blogspot.com/-OsecPY-xoo0/VvnpGNNCt3I/AAAAAAAAFNQ/rYnT3EUVYygLMh2wJ-dh7mY32AxhygcVw/s400/activity-lifecyle.png" width="50%" height="50%">
+
+Jadi kesimpulannya adalah, Fragment tidak bisa hidup atau berdiri sendiri(standalone) . tanpa adanya minimal 1 Activity ,dan Activity dapat memuat banyak Fragment ,dan yang pasti keduanya digunakan untuk keperluan user inteface pada Aplikasi Android.
+
 # Penjelasan Materi I-III
 
 #### -Materi Tambahan
@@ -51,11 +69,23 @@ Intent  adalah  mekanisme  untuk  melakukan  sebuah  action  dan  komunikasi  an
 
 ![Intent](https://miro.medium.com/max/400/1*E1lY86KKiFmkyXoLrZ1XQA.jpeg)
 
+#### -Materi IV
+
+Intent Result adalah sebuah komunikasi antar activity dengan racikan tambahan "SAVEDATA" yang dapat menyimpan data maupun variabel, dalam materi ini diilustrasikan sebuah activity yang didalamnya terdapat sebuah string dan sebuah tombol untuk mengganti ke variabel baru dengan menggunakan metode SAVEDATA
+
+<img src="https://i.stack.imgur.com/Tyhf8.png" width="50%" height="50%">
+
+#### -Materi V
+
+Fragment adalah komponen yang memiliki fungsi untuk menampilkan antarmuka ke pengguna melalui activity dengan memiliki layout xml sendiri, Fragment digunakan agar komponen tampillan aplikasi menjadi fleksibel dan dapat digunakan kembali ( reusable). Fragment juga bisa disebut sub nya activity, satu activity bisa memiliki lebih dari satu fragment. Satu kelas Java dinyatakan sebagai sebuah fragment ketika kelas tersebut meng-extends (inherit) kelas Fragment.
+
+![Fragment](https://miro.medium.com/max/1520/1*zkDZ_-Ekh63Nncq7AEeC6Q.png)
+
 ## Hasil ScreenShot App
 
 ### -Splash Screen
 
-![1](https://github.com/NextDvn/S2_Materi1/blob/master/M1_1.PNG)
+<img src="https://github.com/NextDvn/S2_Materi1/blob/master/M1_1.PNG">
 
 ### -Materi 1 [HOME]
 
@@ -67,6 +97,12 @@ Intent  adalah  mekanisme  untuk  melakukan  sebuah  action  dan  komunikasi  an
 
 ### -Materi 3
 
-![4](https://github.com/NextDvn/S2_Materi1/blob/master/M1_4.PNG)
+![4](https://github.com/NextDvn/S2_Materi1/blob/master/M1_4.PNG) ![5](https://github.com/NextDvn/S2_Materi1/blob/master/M1_5.PNG)
 
-![5](https://github.com/NextDvn/S2_Materi1/blob/master/M1_5.PNG)
+### -Materi 4
+
+![6](https://github.com/NextDvn/S2_Materi1/blob/master/M1_6.PNG) ![7](https://github.com/NextDvn/S2_Materi1/blob/master/M1_7.PNG) ![8](https://github.com/NextDvn/S2_Materi1/blob/master/M1_8.PNG)
+
+### -Materi 5
+
+![6](https://github.com/NextDvn/S2_Materi1/blob/master/M1_9.PNG) ![7](https://github.com/NextDvn/S2_Materi1/blob/master/M1_10.PNG)
