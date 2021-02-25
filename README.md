@@ -32,7 +32,7 @@ Perbedaan LifeCycle Fragment VS Activity
 
 Jadi kesimpulannya adalah, Fragment tidak bisa hidup atau berdiri sendiri(standalone) . tanpa adanya minimal 1 Activity ,dan Activity dapat memuat banyak Fragment ,dan yang pasti keduanya digunakan untuk keperluan user inteface pada Aplikasi Android.
 
-# Penjelasan Materi I-III
+# Penjelasan Materi I-V
 
 #### -Materi Tambahan
 
